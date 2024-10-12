@@ -157,12 +157,13 @@ p {
 
 @media (max-width: 991px){
     h1{
-        width: 100%;
+        width: 1200px;
     }
 
     .p-5{
         padding: 0.2rem !important;
     }
+
     .top-banner{
         padding: 8.375rem 0 8.375rem;
     }
@@ -177,9 +178,9 @@ p {
         font-size: 12px;
         
     }
-    
+
     h2 {
-        font-size: calc(1rem + .9vw);
+        font-size: calc(0.8rem + .9vw);
     }
 }
 
@@ -221,7 +222,7 @@ h1{
         
     }
     h2 {
-        font-size: calc(1rem + .9vw);
+        font-size: calc(0.8rem + .9vw);
     }
     
 }
@@ -229,7 +230,7 @@ h1{
 
 @media (max-width: 667px){
     h1{
-        width: 100%;
+        width: 1200px;
     }
     .top-banner{
         padding: 8.375rem 0 8.375rem;
@@ -251,7 +252,7 @@ h1{
     }
 
     h2 {
-        font-size: calc(1rem + .9vw);
+        font-size: calc(0.8rem + .9vw);
     }
 }
 
