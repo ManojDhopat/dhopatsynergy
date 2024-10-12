@@ -48,9 +48,6 @@ body {
     color: #895432; 
 }
 
-p{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
 
 .logo {
     margin-left: 15px;
@@ -157,44 +154,18 @@ p {
 
 @media (max-width: 991px){
     h1{
-        width: 1200px;
+        width: 100%;
     }
-
-    .p-5{
-        padding: 0.2rem !important;
-    }
-
     .top-banner{
         padding: 8.375rem 0 8.375rem;
     }
-
-    .termsandrefund {
-        padding: 0px;  
-    }
-    
-    .termspoints{
-        padding: 0px;
-        margin: 0px 0px;
-        font-size: 12px;
-        
-    }
-
-    h2 {
-        font-size: calc(0.8rem + .9vw);
-    }
 }
-
 
 @media (max-width: 767px){
 
 h1{
     font-size: 2.8rem;
 }
-
-.p-5{
-    padding: 0.2rem !important;
-}
-
 .lead{
     align-items:flex-start;
 }
@@ -210,50 +181,7 @@ h1{
         padding-left: 1.8rem;
         
     }
-
-    .termsandrefund {
-        padding: 0px;  
-    }
     
-    .termspoints{
-        padding: 0px;
-        margin: 0px 0px;
-        font-size: 12px;
-        
-    }
-    h2 {
-        font-size: calc(0.8rem + .9vw);
-    }
-    
-}
-
-
-@media (max-width: 667px){
-    h1{
-        width: 1200px;
-    }
-    .top-banner{
-        padding: 8.375rem 0 8.375rem;
-    }
-
-    .p-5{
-        padding: 0.2rem !important;
-    }
-
-    .termsandrefund {
-        padding: 0px;  
-    }
-    
-    .termspoints{
-        padding: 0px;
-        margin: 0px 0px;
-        font-size: 12px;
-        
-    }
-
-    h2 {
-        font-size: calc(0.8rem + .9vw);
-    }
 }
 
 
@@ -467,14 +395,8 @@ iframe {
     border: none;
 }
 
-/* terms and condition */
-#TermsandCondition {
-    padding: 20px;  
-}
-
-.termspoints{
-    padding: 20px;
-    margin: 10px 20px;
-    font-size: 18px;
-    
+h2.fw-bold {
+       /* Ensure the text doesn’t span the full page */
+    word-wrap: break-word;   /* Allow wrapping of long text */      /* Adjust line height for readability */
+    margin: 0 auto;          /* Center the text */
 }
