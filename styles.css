@@ -199,6 +199,7 @@ h1{
     overflow: hidden;
     border-radius: 10px;
 }
+
 .gallery-item img {
     width: 100%;
     height: 100%;
@@ -404,7 +405,7 @@ h2.fw-bold {
 
 #carouselExampleFade{
     max-width: 950px; /* Sets max width */
-  height: 700px; /* Sets fixed height */
+  height: 700px; 
   margin: auto;
 }
 
